@@ -20,7 +20,7 @@ Clone this repository to your local machine:
 Review and update the variables in the variables.tf file for each environment (dev, prod, staging) with the desired configurations and your ami for aws instance.
 
 ### NOTE 
-first use terraform init by commenting the backend block in the backend_infra.tf file then again run terraform init by uncommenting it 
+first use ```terraform init``` by commenting the backend block in the backend_infra.tf file then again run ```terraform init``` by uncommenting it 
 
 Initialize the Terraform project to download the required providers and modules:
 
