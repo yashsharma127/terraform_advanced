@@ -8,7 +8,6 @@ variable "instance_type" {
   type = string
 }
 
-variable "ami" {
-  description = "value of my ami"
-  type = string
+variable "my_ami" {
+  default = "value of ami"
 }
